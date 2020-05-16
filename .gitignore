@@ -1,4 +1,8 @@
 *.pro.user*
+.cproject
+.project
+.settings
+.externalToolBuilders
 build*
 *~
 
