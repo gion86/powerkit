@@ -590,10 +590,12 @@ double PowerKit::BatteryLeft()
 
 void PowerKit::LockScreen()
 {
+    qDebug() << "LOCK";
     QProcess proc;
     proc.start(XSCREENSAVER_LOCK);
-    proc.waitForFinished();
-    proc.close();
+    //proc.waitForFinished();
+    //proc.close();
+    qDebug() << "END LOCK";
 }
 
 bool PowerKit::HasBattery()

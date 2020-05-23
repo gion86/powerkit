@@ -103,7 +103,8 @@ enum criticalAction
 #define SS_SIMULATE "SimulateUserActivity"
 
 #define XSCREENSAVER "xscreensaver-command -deactivate"
-#define XSCREENSAVER_LOCK "xscreensaver-command -lock"
+//#define XSCREENSAVER_LOCK "xscreensaver-command -lock"
+#define XSCREENSAVER_LOCK "/home/gionata/Scripts/lock_suspend.sh"
 
 #define CONF_DIALOG_GEOMETRY "dialog_geometry"
 #define CONF_SUSPEND_BATTERY_TIMEOUT "suspend_battery_timeout"

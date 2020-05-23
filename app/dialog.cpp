@@ -1144,6 +1144,7 @@ void Dialog::handleAutoSleepACAction(int index)
 
 void Dialog::handleLockscreenButton()
 {
+    qDebug() << "handleLockscreenButton";
     man->LockScreen();
 }
 
@@ -1184,6 +1185,7 @@ void Dialog::handleHibernateButton()
 
 void Dialog::handlePoweroffButton()
 {
+    qDebug() << "handlePoweroffButton";
     if (QMessageBox::question(this,
                               tr("Shutdown computer"),
                               tr("Are you sure you want to shutdown?"),

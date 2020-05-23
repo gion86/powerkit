@@ -69,7 +69,8 @@
 #define DBUS_DEVICE_CHANGED "DeviceChanged"
 
 #define XSCREENSAVER "xscreensaver-command -deactivate"
-#define XSCREENSAVER_LOCK "xscreensaver-command -lock"
+//#define XSCREENSAVER_LOCK "xscreensaver-command -lock"
+#define XSCREENSAVER_LOCK "/home/gionata/Scripts/lock_suspend.sh"
 
 #define TIMEOUT_CHECK 60000
 
